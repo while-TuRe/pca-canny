@@ -1,7 +1,8 @@
 
 import os
 from urllib.request import urlretrieve
-sides = ['axl','sag','corp1']
+#sides = ['axl','sag','cor']
+sides = ['cor']
 def download():
     for side in sides:
         if not os.path.exists('./pictures/'+side):
